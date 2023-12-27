@@ -9,7 +9,7 @@ This project is a simple java application using Apache Kafka with Gradle build t
 
 Create a kafka topic demo_java with 3 partitions:
 
-kafka-topics.sh --bootstrap-server localhost:9092 --topic demo_java --create --partitions 3 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:29092 --topic demo_java --create --partitions 3 --replication-factor 1
 
 To observe the output of our Java producer application, open the Kafka consumer CLI, kafka-console-consumer using the command:
 
