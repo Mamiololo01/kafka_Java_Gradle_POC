@@ -1,5 +1,5 @@
 
-#STREAMING APPLICATION USING KAFKA WITH GRADLE BUILD TOOL**
+**STREAMING APPLICATION USING KAFKA WITH GRADLE BUILD TOOL**
 
 
 This is a basic Kafka producer/consumer application with a unit and integration test
