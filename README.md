@@ -16,3 +16,7 @@ To observe the output of our Java producer application, open the Kafka consumer 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test-topic
 
 run gradle clean test
+
+Build time was 6sec
+
+
