@@ -31,6 +31,6 @@ public class KafkaMessageProducer {
     public static void main(String[] args) {
         // Set up Kafka producer properties
         KafkaMessageProducer producer = new KafkaMessageProducer();
-        producer.sendMessageToKafka("Hello World");
+        producer.sendMessageToKafka("Hello Kafka");
     }
 }

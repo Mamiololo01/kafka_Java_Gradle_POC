@@ -1,13 +1,14 @@
 
-**STREAMING APPLICATION USING KAFKA WITH GRADLE BUILD TOOL**
+### STREAMING APPLICATION USING KAFKA WITH GRADLE BUILD TOOL
 
 
-This is a basic Kafka producer/consumer application with a unit and integration test
+This is a simple POC that has a Kafka producer, consumer application with a unit and integration test
 
+This project is a java application using Apache Kafka with Gradle build tool.
 
-This project is a simple java application using Apache Kafka with Gradle build tool.
-
-Create a kafka topic demo_java with 3 partitions:
+#### Requirements
+Install Kafka-confluence
+Create a kafka topic called demo_java with 3 partitions for a start.
 
 kafka-topics.sh --bootstrap-server localhost:29092 --topic demo_java --create --partitions 3 --replication-factor 1
 
